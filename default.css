@@ -1,8 +1,10 @@
+
 /* Fondo rosa para toda la página */
 body {
-    background-color: pink; /* Fondo rosa */
+    background: pink; /* Fondo rosa */
     margin: 0; /* Elimina el margen predeterminado */
     font-family: Arial, sans-serif; /* Tipografía opcional */
+    line-height: 18px;
 }
 
 /* Estilos del Header */
@@ -15,24 +17,6 @@ body {
 
 .header h1 {
     margin: 0; /* Elimina márgenes alrededor del título */
-}
-
-/* Estilos del Menú de Navegación */
-header nav ul {
-    list-style-type: none; /* Elimina puntos de lista */
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-header nav ul li {
-    display: inline-block; /* Los enlaces estarán en línea */
-    margin: 0 15px; /* Espacio entre los enlaces */
-}
-
-header nav ul li a {
-    text-decoration: none; /* Elimina subrayado */
-    color: black; /* Texto blanco */
-    font-size: 16px;
 }
 
 /* Fondo blanco para el contenedor principal */
