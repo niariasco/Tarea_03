@@ -231,31 +231,19 @@ p {
     font-weight: bold;
 }
 
+.bg-green {
+    background-color: green; /* Beige */
+}
+
+.bg-brown {
+    background-color: rgb(114, 59, 59); /* Blanco */
+}
+
+.bg-blue {
+    background-color: blue; 
+}
 
 /* Diseño Responsivo */
-@media (max-width: 768px) {
-    .text-and-image {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .text-and-image img {
-        margin-right: 0;
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header h3 {
-        font-size: 1.5em;
-    }
-
-    .content p {
-        font-size: 0.9em;
-    }
-}
-
-
 @media (max-width: 768px) {
     body {
         line-height: 1.5;
@@ -314,4 +302,32 @@ p {
         height: auto; /* Ajusta la altura automáticamente */
     }
 }
+/* Responsivo: Ajustes para dispositivos muy pequeños (pantallas menores a 480px) */
+@media (max-width: 480px) {
+    .header h3 {
+        font-size: 18px; /* Reduce aún más el tamaño del título */
+    }
 
+    .main-section {
+        margin: 10px; /* Reduce los márgenes */
+        padding: 10px; /* Reduce el relleno */
+    }
+
+    .lastSectionPictures img {
+        width: 100%; /* Haz que las imágenes ocupen todo el ancho */
+    }
+
+    .text-and-image p, .text-and-image a {
+        font-size: 12px; /* Reduce el tamaño del texto */
+    }
+
+    .aside {
+        font-size: 14px; /* Ajusta el tamaño del texto del aside */
+    }
+
+    #menu .principal {
+        padding: 10px 5px; /* Reduce el relleno de los enlaces */
+    }
+}
+
+/*Bootstrap5*/
