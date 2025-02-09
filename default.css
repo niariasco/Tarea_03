@@ -192,7 +192,7 @@ p {
 }
 
 .lastSectionPictures img {
-    width: 300px; /* Tamaño de las imágenes */
+    width: 200px; /* Tamaño de las imágenes */
     height: auto; /* Mantén las proporciones */
     border-radius: 10px; /* Bordes redondeados opcionales */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
@@ -256,4 +256,62 @@ p {
 }
 
 
+@media (max-width: 768px) {
+    body {
+        line-height: 1.5;
+        font-size: 14px; /* Reduce el tamaño de la fuente */
+    }
+
+    .header h3 {
+        font-size: 24px; /* Reduce el tamaño del título */
+    }
+
+    .main-section {
+        margin: 20px; /* Reduce los márgenes */
+        padding: 15px; /* Reduce el relleno */
+    }
+
+    .text-and-image {
+        flex-direction: column; /* Coloca imagen y texto en columnas */
+    }
+
+    .text-and-image img {
+        margin-right: 0; /* Elimina el margen derecho */
+        margin-bottom: 10px; /* Añade un margen inferior */
+    }
+
+    .secondsection {
+        grid-template-columns: 1fr; /* Aside y Main en una sola columna */
+    }
+
+    .aside {
+        width: 100%; /* Ajusta el ancho del aside */
+    }
+
+    #menu {
+        flex-direction: column; /* Convierte el menú en una columna */
+        align-items: center; /* Centra los enlaces */
+    }
+
+    #menu .principal {
+        width: 100%; /* Asegura que los enlaces ocupen el ancho completo */
+        text-align: center; /* Centra el texto */
+        border-right: none; /* Elimina el borde derecho */
+        border-bottom: 1px solid beige; /* Añade un borde inferior */
+    }
+
+    .lastSectionPictures {
+        flex-direction: column; /* Coloca las imágenes en columnas */
+        gap: 20px; /* Reduce el espacio entre elementos */
+    }
+
+    .lastSectionPictures img {
+        width: 90%; /* Ajusta el tamaño de las imágenes */
+    }
+
+    #footer {
+        font-size: 12px; /* Reduce el tamaño del texto */
+        height: auto; /* Ajusta la altura automáticamente */
+    }
+}
 
