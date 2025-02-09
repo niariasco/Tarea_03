@@ -1,10 +1,11 @@
 
-/* Fondo rosa para toda la página */
+/* Fondo del Navegador */
 body {
     background: beige; /* Fondo rosa */
     margin: 0; /* Elimina el margen predeterminado */
     font-family: Arial, sans-serif; /* Tipografía opcional */
     line-height: 18px;
+    height: 100%;
 }
 
 /* Estilos del Header */
@@ -19,12 +20,14 @@ body {
     margin: 0; /* Elimina márgenes alrededor del título */
 }
 
-/* Fondo blanco para el contenedor principal */
+/* Fondo blanco Fondo Principal */
 .main-section {
     background-color: white; /* Fondo blanco */
-    margin: 150px; /* Espaciado alrededor del contenedor */
+    margin: 150px ; /* Espaciado alrededor del contenedor */
     padding: 60px; /* Relleno dentro del contenedor */
     border-radius: 8px; /* Esquinas redondeadas */
+    flex: 1; 
+
 }
 
 /**Imagen Libu Negro**/
@@ -82,17 +85,16 @@ img.floatleft {
 
 /**Divide en secciones**/
 .post {
-    margin-bottom: px;
-    background-color: beige/* #f9f9f9*/;
+    margin: 0px;
+    background-color: pink/* #f9f9f9*/;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    width: 100%;
 }
 
 .header h3 {
     font-size: 1.8em;
     padding: 10px 20px;
     margin: 0;
-    background-color: white;
     color: black;
 }
 
@@ -102,11 +104,64 @@ img.floatleft {
 }
 
 
-#footer {
-    padding: 10px 20px;
-    background-color: #f1f1f1;
+
+
+/*MENU*/
+#menu{
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: black;    
+}
+
+#menu .principal {
+    float: left;
+    color: beige;
+    border-right: 1px solid beige;
+    text-decoration: none;
     text-align: center;
-    border-top: 1px solid #ddd;
+    padding: 10px 25px 10px 25px;
+}
+
+#menu .last {
+    border-right: none;
+    color: beige;
+}
+/*FIN DEL MENU*/
+
+/*ASIDE*/
+.aside {
+    width: 40%; /* Ajusta el tamaño del aside */
+    padding: 10px;
+   /** border-left: 3px solid #ccc;**/
+}
+/*FIN DEL ASIDE*/
+
+/*Footer*/
+#footer {
+    border: double;
+    height: 66px;
+    text-align: center;
+    color: beige;
+    background-color: BLACK;
+    position: absolute; /* Lo posiciona en la parte inferior */
+    left: 0;
+    right: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho de la ventana */
+    /* Espacio para el contenido encima del footer */
+    clear: both;
+    padding: 10px;
+ /**   border: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: white;
+    background-color: #FF7800;
+    **/
+}
+/*FIN DEL Footer*/
+.negrita {
+    font-weight: bold;
 }
 
 
