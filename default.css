@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif; /* Tipografía opcional */
     line-height: 18px;
     height: 100%;
+    min-height: 100vh; 
 }
 
 /* Estilos del Header */
@@ -69,7 +70,7 @@ img.floatleft {
     color: black;
     flex: 2;
     /* letter-spacing: 2px; /* Ajusta el valor para aumentar o disminuir el espacio */
-    line-height: 2; /* Ajusta el valor para el espaciado entre líneas */
+    /* line-height: 1;  Ajusta el valor para el espaciado entre líneas */
 }
 
 /*diseño del texto al aldo de la imagen*/

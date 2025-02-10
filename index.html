@@ -9,25 +9,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>   
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="images/LibuNegro.jpeg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#Principal">Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#PICNIC">PICNIC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Tendencia">Tendencia</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Más..</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#Acerca de..">Acerca de..</a></li>
+                  <li><a class="dropdown-item" href="#Contactenos">Contáctenos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+
+
     <div class="main-section">
 
     <div id="primarycontent">
+        <section id="Principal"></section>
         <article class="post">
             <div class="header">
                 <h3>Libú  </h3>
             </div>
             <div class="content">
                 <div class="text-and-image">
+                    
                     <img src="images/LibuNegro.jpeg" class="picLibuNegro" alt="" />
                     <p>Somos una marca única que celebra la belleza de lo hecho a mano y la autenticidad de la tradición costarricense.</br>  Cada prenda que creamos está diseñada y confeccionada por manos expertas, utilizando materiales de alta calidad y técnicas artesanales que transmiten la esencia y el espíritu de Costa Rica.</br> 
                         Nuestro compromiso con la sostenibilidad y el respeto por el medio ambiente nos lleva a seleccionar cuidadosamente los recursos que utilizamos, priorizando materiales naturales y locales. </br> Cada pieza no solo refleja un diseño contemporáneo y elegante, sino también una historia de trabajo, dedicación y pasión por el arte de la moda artesanal.</br> 
                         Desde la calidez de nuestras costas hasta la frescura de la montaña, nuestra ropa captura los colores, texturas y ritmos de Costa Rica, llevando la naturaleza y la cultura local a cada costura. </br> Creemos que lo hecho a mano tiene un valor único y duradero, que se siente en cada detalle.</br> 
                         Con Libu, no solo vistes una prenda, vistes una historia de tradición, arte y amor por nuestro país.
                         </p>
+                    </section>
                 </div>
             </div>
-  
+ 
 <!--      </article>   si queremos hacer la division marcada cerramos el article aca-->
 <!--MENU-->
         <nav id="menu">
@@ -36,7 +75,7 @@
                 <a class="principal" href="#PICNIC">PICNIC</a>
                 <a class="principal" href="#Tendencia">Tendencia</a>
                 <a class="principal" href="#Acerca de..">Acerca de..</a>
-                <a class="principal last" href="#Contáctenos">Contáctenos</a>
+                <a class="principal last" href="#Contactenos">Contáctenos</a>
             </div>
         </nav>
  <!--FIN DEL MENU-->
@@ -103,7 +142,7 @@
   </div>
 </section>
 
-<section id="Contáctenos"> 
+<section id="Contactenos"> 
 <div class="container-fluid mt-3">
     <h1>Contáctenos</h1>
     <p></p>
@@ -122,6 +161,9 @@
 </div>
 </section>
 
+
+
+ 
 
 </div>  <!--FIN DEL  class="main-section"-->
 </div> <!--FIN DEL   id="primarycontent"-->
