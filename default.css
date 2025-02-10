@@ -5,7 +5,6 @@ body {
     font-family: 'Poppins', sans-serif; /* Tipografía opcional */
     line-height: 18px;
     height: 100%;
-    min-height: 100vh; 
 }
 
 /* Estilos del Header */
@@ -204,6 +203,11 @@ p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 /*FIN DEL IMAGE*/
+
+#demo {
+    width: 80%; /* Ajusta el ancho como desees */
+    margin: 0 auto; /* Centra horizontalmente */
+}
 
 /*Footer*/
 #footer {
